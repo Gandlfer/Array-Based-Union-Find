@@ -43,7 +43,18 @@ public class DisjointSet implements IDisjointSet {
 		// TODO Auto-generated method stub
 		for (int i = 0; i <parent.length ; i++) {
             parent[i] = i;
+            System.out.println(i+1+"--->"+(parent[i]+1));
         }
 	}
-
+	
+	//calculate the number of parent by finding all parent in each index.
+	public int calcNumOfTables() {
+		int count=0;
+		for(int i=0;i<parent.length;i++) {
+			if(parent[i]==i) {
+				count++;
+			}
+		}
+		return count;
+	}
 }
