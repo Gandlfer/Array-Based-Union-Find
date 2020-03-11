@@ -1,4 +1,4 @@
-# CS4310-A3-Union-Find
+Union-Find
 
 Tomorrow is Jack & Lucy’s wedding day. They have a lot of friends who will attend their
 wedding and have dinner together afterwards. Jack and Lucy want to know minimum
